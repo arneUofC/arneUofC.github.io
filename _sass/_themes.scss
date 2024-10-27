@@ -5,12 +5,12 @@
 @use "sass:color";
 
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: rgb(244, 239, 219);
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: rgb(15, 49, 14);
-  --global-theme-color: rgb(15, 49, 14);
-  --global-hover-color: rgb(15, 49, 14);
+  --global-text-color: rgb(33, 41, 2);
+  --global-text-color-light: rgb(14, 73, 12);
+  --global-theme-color: rgb(14, 73, 12);
+  --global-hover-color: rgb(14, 73, 12);
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
@@ -79,8 +79,8 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-theme-color: rgb(3, 142, 21);
+  --global-hover-color: rgb(3, 142, 21);
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};

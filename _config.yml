@@ -320,6 +320,9 @@ scholar:
 
   source: /_bibliography/
   bibliography: my_papers_web.bib
+  bibliography_conference: my_conference_papers.bib
+  bibliography_patents: my_patents.bib
+  bibliography_thesis: my_thesis.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
