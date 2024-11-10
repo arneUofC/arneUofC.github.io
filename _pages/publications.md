@@ -13,19 +13,29 @@ nav_order: 3
 
 {% include bib_search.liquid %}
 
-<div class="publications">
-
 # Journal papers
+
+<div class="publications">
 
 {% bibliography %}
 
+</div>
+
+
 # Conference papers
+
+<div class="publications">
 
 {% bibliography_conference %}
 
+</div>
+
 # Patents
+
+<div class="publications">
 
 {% bibliography_patents %}
 
-
 </div>
+
+
