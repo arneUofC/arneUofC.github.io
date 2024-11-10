@@ -21,11 +21,11 @@ nav_order: 3
 
 # Conference papers
 
-{% bibliography_conference}
+{% bibliography_conference %}
 
 # Patents
 
-{% bibliography_patents}
+{% bibliography_patents %}
 
 
 </div>
