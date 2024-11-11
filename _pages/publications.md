@@ -16,26 +16,15 @@ nav_order: 3
 # Journal papers
 
 <div class="publications">
-
-{% bibliography %}
-
+  {% bibliography --query @*[category_journal=true]* %}
 </div>
 
 
 # Conference papers
 
 <div class="publications">
-
-{% bibliography_conference %}
-
+  {% bibliography --query @*[category_conference=true]* %}
 </div>
 
-# Patents
-
-<div class="publications">
-
-{% bibliography_patents %}
-
-</div>
 
 

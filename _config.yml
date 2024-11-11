@@ -319,10 +319,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: my_papers_web.bib
-  bibliography_conference: my_conference_papers.bib
-  bibliography_patents: my_patents.bib
-  bibliography_thesis: my_thesis.bib
+  bibliography: my_papers_all.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
@@ -372,10 +369,14 @@ filtered_bibtex_keywords:
     supp,
     video,
     website,
+    category_journal,
+    category_conference,
+    category_patent,
+    category_thesis,
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
